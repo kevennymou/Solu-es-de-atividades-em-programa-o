@@ -1,0 +1,15 @@
+lista = []
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+lista.append(a)
+lista.append(b)
+lista.append(c)
+lista.sort()
+for i in lista:
+    print(i)
+print()
+print(a)
+print(b)
+print(c)
